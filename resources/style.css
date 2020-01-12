@@ -11,7 +11,7 @@ header {
     height: 64px;
 }
 
-a {
+.header-list a {
     text-decoration: none;
     color: black;
 }
@@ -19,6 +19,8 @@ a {
 .header-logo {
     float: left;
     padding-left: 24px;
+    height: 50px;
+    margin: 2px 0;
 }
 
 .company-name1 {
@@ -56,7 +58,7 @@ a {
     align-items: center;
 }
 
-.banner {
+#banner {
     width: 60%;
     padding: 32px 24px;
     height: 60%;
@@ -86,4 +88,88 @@ a {
     text-align: center;
     color: white;
     font-size: 16px;
+}
+
+/*Practice part */
+
+.practice-container {
+    background-color: white;
+    width: 100%;
+    padding-bottom: 32px;   
+    display: flex;
+}
+
+#info-picture {
+    width: 60%;
+    padding: 32px 24px;
+    display: block;
+    height: 60%;
+}
+
+.text-box-practice {
+    padding-left: 24px;
+    display: none;
+}
+
+.practice-title {
+    font-size: 39px;
+    color: rgb(70, 70, 70);
+}
+
+.practice-text {
+    color: rgb(116, 114, 114);
+}
+
+.written-by {
+    padding-top: 32px;
+    font-size: 14px;
+}
+
+.practice-container .boxes {
+    display: inline;
+}
+
+.boxes {
+    width: 40%;
+    padding-left: 16px;
+    border-left: 1px solid lightgrey;
+    padding-top: 32px;
+    display: flex;
+}
+
+.box-picture {
+    height: auto;
+    width: 35%;
+    margin-right: 16px;
+}
+
+.box-1 {
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+.box-2 {
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.box-3 {
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.box-titles {
+}
+
+.box-text {
+}
+
+.read-more {
+
 }
