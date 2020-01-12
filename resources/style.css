@@ -1,0 +1,89 @@
+body {
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: auto;
+}
+
+/* Header */
+
+header {
+    height: 64px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-logo {
+    float: left;
+    padding-left: 24px;
+}
+
+.company-name1 {
+    color: black;
+    font-weight: bold;
+    font-size: 32px; 
+    line-height: 56px;
+
+}
+
+.company-name2 {
+    color: grey;
+    font-weight: 300;
+    font-size: 32px;
+}
+
+.header-list {
+    padding-right: 24px;
+    list-style: none;
+    float: right;
+}
+
+.header-list-items {
+    display: inline;
+    padding-left: 16px;
+    font-size: 16px;
+}
+
+/* Banner first box */
+
+.learn-something {
+    background-color: lightgrey;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.banner {
+    width: 60%;
+    padding: 32px 24px;
+    height: 60%;
+    display: block;
+    margin-right: 24px;
+}
+
+.learn-text {
+    font-weight: bold;
+    color: rgb(70, 70, 70);
+    font-size: 40px;
+}
+
+.latin-text {
+    color: rgb(70, 70, 70);
+    padding-bottom: 16px;
+    font-size: 20px;
+}
+
+.start-here {
+    background-color: rgb(70, 70, 70);
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.start-here-text {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
